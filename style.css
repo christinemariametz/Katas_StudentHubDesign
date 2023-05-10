@@ -1,0 +1,105 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    max-width: 600px;
+    margin-inline: auto;
+    margin-block: 0;
+    background-color: white;
+}
+
+
+.parent-polygon {
+position: relative;
+
+}
+
+.polygon {
+    width: 600px;
+    height: 94px;
+    position: absolute;
+}
+
+.polygon1 {
+    z-index: 1;
+    top: 7px;
+    background-color: #8849CF;
+    clip-path: polygon(0 80%, 0 0, 100% 0, 100% 80%, 50% 100%);
+}
+
+.polygon2 {
+    z-index: 2;
+    background-color: #6A1CC3;
+    clip-path: polygon(0 80%, 0 0, 100% 0, 100% 80%, 50% 100%);
+}
+
+
+.header-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+svg {
+    color: white;
+    align-self: center;
+}
+
+h1 {
+    color: white;
+    font-size: 20px;
+}
+
+main {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+
+h2 {
+    color: #8849CF;
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+} 
+
+
+
+ul {
+    list-style-type: none;
+    color: #6A1CC3;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+li {
+    border: 3px solid #6A1CC3;
+    padding: 20px;
+}
+.Dmitry {
+    display: flex;
+}
+
+.profile1 {
+background-color: #6A1CC3;
+width: 39px;
+height: 39px;
+}
